@@ -1,0 +1,23 @@
+
+$color: darkblue;
+
+%mylist {
+  list-style-type: circle;
+  font-family: fantasy;
+  font-weight: 400;
+}
+
+
+.branches {
+
+    ul {
+      @extend %mylist;
+      font-size: 18px;
+
+    }
+
+    p {
+      font-weight: bold;
+      color: $color;
+    }
+}

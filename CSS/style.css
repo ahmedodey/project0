@@ -1,0 +1,217 @@
+/*
+Colors:
+#242038 - Dark Blue
+#725ac1 - Slate Blue
+#cac4ce - grey
+#f7ece1 - linen
+*/
+
+
+
+/*
+Global Setting
+________________________________________
+ */
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+body {
+   font-family: "Helvetica Neue", "Arial", sans-serif;
+   background: #cac4ce;
+}
+
+ header {
+   color: #242038;
+   background-color: #cac4ce;
+   /* background-image: url(../images/elle-hughes-jJR_GI4ZvR4-unsplash.jpg); */
+   background-position: top right;
+   background-size: cover;
+
+
+
+   /* background: #242038; */
+   padding-top: 80px ;
+   line-height: 1.5;
+   height: 300px;
+   text-align: center;
+
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background: #242038;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  width: 150px;
+  color: #cac4ce;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background: #8c8b8b;
+  color: black;
+}
+
+.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+footer {
+  background: #725ac1;
+  height: 180px;
+  padding: 60px;
+  color: #cac4ce;
+  text-align: center;
+}
+
+.row {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed grey;
+}
+
+.row p {
+  padding: 10px;
+}
+
+ul {
+  padding-left: 50px;
+}
+
+ol {
+  padding-left: 50px;
+}
+
+
+
+
+
+ /*
+Home Page setting
+________________________________________
+*/
+
+.heading  {
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+
+
+/*
+Products Setting
+________________________________________
+
+ */
+
+.products-heading {
+  background-color:  #f7ece1 ;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.product-images img {
+  width: 300px;
+  margin: 15px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+
+
+
+/*
+About setting
+________________________________________
+*/
+
+table {
+  width: 70%;
+  padding-left: 10px;
+}
+
+table th, td {
+  border: 1px solid grey;
+  padding: 10px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #ded8e3;
+}
+
+
+
+
+/*
+Testimonial Setting:
+_________________________________________
+*/
+
+
+
+/* Contact us setting
+_________________________________________
+
+*/
+
+.contactform {
+  width: 80%;
+
+
+}
+
+.contactform-items {
+  margin: 15px;
+  overflow: hidden;
+}
+
+.contactform-item-1 {
+  width: 200px;
+  display: inline-block;
+
+  align-content: stretch;
+}
+
+.contactform-item-2 {
+  width: 500px;
+  display: inline-block;
+
+  align-content: stretch;
+
+}
+
+.contactform-item-2 input[type=text] {
+  width: 300px;
+}
+
+/* Media Query */
+
+}
+
+@media  (max-width: 700px){
+
+    .contactform-item-1, .contactform-item-2 {
+      width: 100%;
+    }
+
+  }
+
+}

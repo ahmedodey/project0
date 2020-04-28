@@ -1,0 +1,12 @@
+.branches ul {
+  list-style-type: circle;
+  font-family: fantasy;
+  font-weight: 400; }
+
+.branches ul {
+  font-size: 18px; }
+.branches p {
+  font-weight: bold;
+  color: darkblue; }
+
+/*# sourceMappingURL=nesting.css.map */
